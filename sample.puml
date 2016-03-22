@@ -1,8 +1,4 @@
-UML legend:
 
-table = class
-#pkey
-+index
 
 @starttmeta
   社員|employees
@@ -19,6 +15,8 @@ table = class
 
 
 @startuml
+hide circle
+
     class 社員 {
         ==
         #社員番号
