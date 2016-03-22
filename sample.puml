@@ -1,0 +1,40 @@
+UML legend:
+
+table = class
+#pkey
++index
+
+@starttmeta
+  社員|employees
+  部門|departments
+  所属|belonging
+@endtmeta
+
+@startcmeta
+  社員番号|e_id varchar(8) not null
+  社員名|e_name varchar(24) not null
+  部門番号|d_id varchar(3) not null
+  部門名|d_name varchar(12) not null
+@endcmeta
+
+
+@startuml
+    class 社員 {
+        ==
+        #社員番号
+        社員名
+    }
+
+    class 部門 {
+        ==
+        #部門番号
+        部門名
+    }
+
+    class 所属 {
+        ==
+        #社員番号
+        #部門番号
+    }
+
+@enduml
