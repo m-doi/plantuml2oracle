@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 #-*-coding:utf-8-*-
-# Usage: ./plantuml2mysql <dbsource.plu> <dbname>
-# Author: Alexander I.Grafov <grafov@gmail.com>
-# The code is public domain.
 
 CHARSET="utf8_unicode_ci"
 
